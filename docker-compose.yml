@@ -3,7 +3,7 @@ services:
   test:
     build:
       context: .
-      dockerfile: Dockerfile
+      dockerfile: test.dockerfile
     image: hapi-template
     command: 'bash tools/test.sh'
     working_dir: /app/user
